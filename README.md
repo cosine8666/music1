@@ -1,16 +1,62 @@
-# flutter_application_1
+# 音樂應用程式
 
-A new Flutter project.
+一個互動式的音樂學習應用程式，使用 Flutter 開發。
 
-## Getting Started
+## 功能特色
 
-This project is a starting point for a Flutter application.
+- 🎵 互動式鋼琴鍵盤
+- 🎼 樂譜顯示
+- ⏱️ 30秒計時挑戰
+- 🔊 音效回饋
+- 📱 響應式設計
 
-A few resources to get you started if this is your first Flutter project:
+## 遊戲玩法
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. 點擊 "Start" 開始遊戲
+2. 觀察樂譜顯示的音符
+3. 在鋼琴鍵盤上點擊對應的琴鍵
+4. 在30秒內盡可能答對更多題目
+5. 查看最終成績
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 技術架構
+
+- **框架**: Flutter
+- **音效**: audioplayers
+- **部署**: GitHub Pages
+
+## 線上試玩
+
+🎮 [在 GitHub Pages 上試玩](https://cosine8666.github.io/music1/)
+
+## 本地開發
+
+### 需求
+- Flutter SDK
+- Dart SDK
+
+### 安裝步驟
+
+1. 克隆專案
+```bash
+git clone https://github.com/cosine8666/music1.git
+cd music1
+```
+
+2. 安裝依賴
+```bash
+flutter pub get
+```
+
+3. 執行應用程式
+```bash
+flutter run
+```
+
+### 建置 Web 版本
+```bash
+flutter build web
+```
+
+## 授權
+
+MIT License
